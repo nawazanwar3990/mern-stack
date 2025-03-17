@@ -18,7 +18,7 @@ const PermissionSchema = new mongoose.Schema(
 
 
   },
-  { timestamps: true } // Automatically adds createdAt & updatedAt
+  { timestamps: true }
 );
 
 module.exports = mongoose.model('Permission', PermissionSchema);
